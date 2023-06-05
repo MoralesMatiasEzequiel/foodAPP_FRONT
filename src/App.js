@@ -4,7 +4,7 @@ import { Route, useLocation } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 
 // axios.defaults.baseURL = "http://localhost:3001";  //Descomentar esta linea cuando quieramos trabajar de manera local.
-axios.defaults.baseURL = "https://servidor-food-gvnp.onrender.com";  //Descomentar esta linea cuando querramos pushear/actualizar el proyecto.
+axios.defaults.baseURL = "https://servidor-food-gvnp.onrender.com/";  //Descomentar esta linea cuando querramos pushear/actualizar el proyecto.
 
 
 function App() {
